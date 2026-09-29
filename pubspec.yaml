@@ -1,0 +1,24 @@
+name: flutter_application_1
+description: "A Flutter educational project demonstrating Authentication and Authorization with a Go backend."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+# Production dependencies required for running the application
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  cupertino_icons: ^1.0.8
+
+# Development dependencies for testing and linting
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
